@@ -2,7 +2,7 @@ package jwt
 
 import (
 	"os"
-	"sso/internal/domain/models"
+	"lib/domain/models"
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
