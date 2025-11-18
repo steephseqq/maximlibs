@@ -2,10 +2,10 @@ package jwt
 
 import (
 	"os"
-	"lib/domain/models"
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
+	"github.com/steephseqq/maximlibs/domains/models"
 )
 
 var secret = os.Getenv("JWT_SECRET")

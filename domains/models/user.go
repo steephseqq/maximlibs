@@ -1,5 +1,6 @@
 package models
+
 type User struct {
-	UUID      string
-	Email     string
+	UUID  string
+	Email string
 }
